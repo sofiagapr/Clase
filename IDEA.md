@@ -3,21 +3,21 @@
 > Completa este archivo con ayuda de tu asistente de código. Él lo lee antes de cada tarea (ver AGENTS.md).
 
 ## ¿Qué es?
-<!-- Una frase. Ej: Tienda online de café de especialidad colombiano. -->
+Tienda online de tecnología (electrónica y accesorios).
 
 ## ¿Para quién?
-<!-- Quién lo va a usar. -->
+Clientes en general que quieren comprar productos de tecnología.
 
 ## Elementos que maneja
-<!-- Qué guarda tu proyecto y sus campos. Ej: Productos con nombre, descripción, categoría y precio. -->
+Productos con nombre, descripción, categoría y precio de venta.
 
 ## Dato extra
-<!-- Un campo nuevo que tendrá cada elemento, con su tipo. Ej: stock (número entero). -->
+stock (número entero): unidades disponibles de cada producto.
 
 ## Marca
-- Nombre:
-- Eslogan:
-- Color principal (hex):
+- Nombre: KataryTech
+- Eslogan: Tecnología para tu día a día
+- Color principal (hex): #2563eb
 
 ## Asistente de mi producto (bonus)
-<!-- Qué haría el chat dentro de tu app. Ej: Recomienda cafés según el gusto del cliente. -->
+Asesor de compras: recomienda productos según lo que el cliente busca (presupuesto y categoría), teniendo en cuenta el stock disponible.
