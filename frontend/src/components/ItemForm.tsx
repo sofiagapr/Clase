@@ -2,7 +2,7 @@ import { useState, type FormEvent } from "react";
 import { api } from "../api";
 import type { NewItem } from "../types";
 
-const empty: NewItem = { name: "", description: "", category: "", price: 0 };
+const empty: NewItem = { name: "", description: "", category: "", price: 0, stock: 0 };
 
 export function ItemForm({ onCreated }: { onCreated: () => void }) {
   const [form, setForm] = useState<NewItem>(empty);
@@ -33,6 +33,12 @@ export function ItemForm({ onCreated }: { onCreated: () => void }) {
         placeholder="Precio"
         value={form.price || ""}
         onChange={(e) => setForm({ ...form, price: Number(e.target.value) })}
+      />
+      <input
+        type="number"
+        placeholder="Stock"
+        value={form.stock || ""}
+        onChange={(e) => setForm({ ...form, stock: Number(e.target.value) })}
       />
       <button className="primary" disabled={saving}>
         {saving ? "Guardando…" : "Guardar"}

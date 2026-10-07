@@ -12,7 +12,7 @@ export function ItemList({ items, onDelete }: { items: Item[]; onDelete: (id: nu
           <span className="badge">{item.category}</span>
           <h3>{item.name}</h3>
           <p className="muted">{item.description}</p>
-          {/* 👉 TODO PASO React: muestra aquí tu propiedad nueva, ej: <p>Stock: {item.stock}</p> */}
+          <p className="stock">Stock: {item.stock}</p>
           <div className="card-footer">
             <strong>{money.format(item.price)}</strong>
             <button className="link" onClick={() => onDelete(item.id)}>

@@ -13,10 +13,11 @@ public class ItemStore
     public ItemStore()
     {
         // 👉 PASO .NET: reemplaza estos datos de ejemplo por los de TU idea.
-        Seed(new Item(0, "Café Nariño 500 g", "Notas a panela y cítricos, tostión media.", "Café", 42000));
-        Seed(new Item(0, "Café Huila 250 g", "Dulce, cuerpo medio, ideal para método V60.", "Café", 28000));
-        Seed(new Item(0, "Prensa francesa", "Cafetera de 600 ml en vidrio y acero.", "Accesorios", 89000));
-        Seed(new Item(0, "Molino manual", "Molienda ajustable en cerámica.", "Accesorios", 120000));
+        Seed(new Item(0, "Audífonos inalámbricos", "Sonido envolvente y cancelación de ruido activa.", "Audio", 249900, 15));
+        Seed(new Item(0, "Teclado mecánico RGB", "Interruptores rojos, retroiluminación personalizable.", "Periféricos", 189900, 8));
+        Seed(new Item(0, "Mouse gamer", "Sensor de 12000 DPI y 7 botones programables.", "Periféricos", 89000, 25));
+        Seed(new Item(0, "Monitor 27\" QHD", "Panel IPS 144 Hz para gaming y trabajo.", "Pantallas", 1299900, 4));
+        Seed(new Item(0, "Smartwatch fitness", "Monitoreo de GPS, ritmo cardiaco y sueño.", "Wearables", 349900, 11));
     }
 
     public IEnumerable<Item> GetAll() => _items.Values.OrderBy(i => i.Id);

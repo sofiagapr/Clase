@@ -6,6 +6,7 @@ export type Item = {
   description: string;
   category: string;
   price: number;
+  stock: number;
 };
 
 export type NewItem = Omit<Item, "id">;

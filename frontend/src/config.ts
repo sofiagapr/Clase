@@ -1,8 +1,8 @@
 // 👉 PASO React: ponle la marca de TU proyecto.
 export const config = {
-  brandName: "Café Andino",
-  tagline: "Café de especialidad colombiano, directo de la finca a tu taza.",
-  accentColor: "#f28d27",
+  brandName: "KataryTech",
+  tagline: "Tecnología para tu día a día",
+  accentColor: "#2563eb",
   itemsTitle: "Nuestros productos",
   agentName: "Lua",
 };
